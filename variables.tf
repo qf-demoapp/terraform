@@ -5,3 +5,6 @@ variable "abc"{
 variable "vpcname"{
  type = "string"
 }
+variable "sg"{
+ type = "string"
+}
