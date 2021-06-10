@@ -1,1 +1,4 @@
 
+variable "abc"{
+ type = "string"
+}
