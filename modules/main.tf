@@ -3,7 +3,7 @@ provider{
 terraform{
 }
 
-module "vpc"{
+resource "vpc" "vpvname"{
   name = "var.vpcname" 
 }
 resource "ec2-instance" "vm1"{
